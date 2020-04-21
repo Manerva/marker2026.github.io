@@ -44,5 +44,6 @@ async function getF() {
     textWithF.style.backgroundImage = "url('images/list2.png')";
     await sleep(250);
     textWithF.style.backgroundImage = "url('images/list1.png')";
+    await sleep(250);
     document.getElementById("textWithF").textContent = text_perm;
 };
