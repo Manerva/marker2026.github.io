@@ -94,8 +94,8 @@ body {
 }
 #navbar li { display: inline; }
 #navbar a {
-	text-align: start;
-	align-self: start;
+	text-align: center;
+	align-self: auto;
 	color: #fff;
 	padding: 5px 10px;
 	text-decoration: none;
@@ -166,4 +166,10 @@ a.expand:hover {
 	height: 100px;
 	background: #BFF08E;
 	vertical-align:bottom;
+}
+
+.city {
+	font-family: 'Comic Sans MS';
+	color: blue;
+	size: 200%;
 }
