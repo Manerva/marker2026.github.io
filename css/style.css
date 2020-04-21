@@ -94,6 +94,7 @@ body {
 }
 #navbar li { display: inline; }
 #navbar a {
+	text-align: start;
 	align-self: start;
 	color: #fff;
 	padding: 5px 10px;
