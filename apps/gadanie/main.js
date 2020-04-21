@@ -24,11 +24,25 @@ let f = ["Все двери открыты - выбери\nправильную.
 "Вас ожидают\nприятные хлопоты.",
 "Вы никогда не станете\nслишком стары, \nчтобы учиться."];
 
-function getF() {
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function getF() {
     //alert("123");
     let random = Math.floor(Math.random() * f.length);
     let text_perm = f[random];
     document.getElementById('getF').hidden = true;
     document.getElementById('textWithF').hidden = false;
+    document.getElementById("textWithF").textContent = "";
+    textWithF.style.backgroundImage = "url('images/list.png')";
+    await sleep(250);
+    textWithF.style.backgroundImage = "url('images/list4.png')";
+    await sleep(250);
+    textWithF.style.backgroundImage = "url('images/list3.png')";
+    await sleep(250);
+    textWithF.style.backgroundImage = "url('images/list2.png')";
+    await sleep(250);
+    textWithF.style.backgroundImage = "url('images/list1.png')";
     document.getElementById("textWithF").textContent = text_perm;
 };

@@ -15,12 +15,12 @@ button {
 .backGround {
     width: 502px;
     height: 302px;
-    /*margin-left: auto;
-    margin-right: auto;*/
+    margin-left: auto;
+    margin-right: auto;
     background-image: url("images/bg.png");
 }
 .f {
-    background-image: url("images/list1.png");
+    /*background-image: url("images/list1.png");*/
     height: 150px;
     font-size: 130%;
     text-align: center;
