@@ -94,16 +94,17 @@ body {
 }
 #navbar li { display: inline; }
 #navbar a {
-  color: #fff;
-  padding: 5px 10px;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  width: 100px;
+	align-self: start;
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	display: inline-block;
+	width: 100px;
 }
 #navbar a:hover {
-  border-radius: 20px 5px;
-  background-color: rgb(124, 0, 108);
+	border-radius: 20px 5px;
+	background-color: rgb(124, 0, 108);
 }
 
 a.expand {
