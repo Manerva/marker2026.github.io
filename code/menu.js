@@ -4,7 +4,7 @@ liLast.innerHTML = `<ul id="navbar">
 <li><a href="http://marupik.ru/onlinemap/index.html">Онлайн карта</a></li>
 <li><a href="http://marupik.ru/donate/index.html">Донат на сервере</a></li>
 <li><a href="http://marupik.ru/sity/index.html">Города сервера</a></li>
-<li><a href="http://marupik.ru/apps/index.html">Приложения админа</a></li>
+<li><a href="http://marupik.ru/apps/index.html">Программы админа</a></li>
 <li><a href="http://marupik.ru/help_with_server.html">Помогали :)</a></li>
 </ul>`;
 m.append(liLast)
