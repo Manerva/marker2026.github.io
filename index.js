@@ -8,12 +8,13 @@ document.write(`
 		<meta name="keywords" content="" />
 		<meta name="description" content="" />
     <link href="http://marupik.ru/css/style.css" rel="stylesheet">
+    <link rel="import" href="http://marupik.ru/code/menu.html">
 	</head>
     <body>
 		<div class="wrapper">
 			<header class="header">
                 <div class="m">
-                    <link rel="import" href="http://marupik.ru/code/menu.html">
+                    <script>  $('#content2M').load('http://sinyava-cbs.at.ua/1/SITE/vistavka/part2.html #part2');</script>
 				</div>
                 </header><!-- .header-->
             
