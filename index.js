@@ -1,3 +1,5 @@
+
+
 document.write(`
 <!DOCTYPE HTML>
 <html>
@@ -14,7 +16,7 @@ document.write(`
 		<div class="wrapper">
 			<header class="header">
                 <div class="m">
-                <div w3-include-html="http://marupik.ru/code/menu.html"></div> 
+                <script src="http://www.marupik.ru/code/menu.js"></script>
 				</div>
                 </header><!-- .header-->
             
