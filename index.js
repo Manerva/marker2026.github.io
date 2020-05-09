@@ -16,7 +16,9 @@ document.write(`
 		<div class="wrapper">
 			<header class="header">
                 <div class="m">
+                <ul id="navbar">
                 <script src="http://www.marupik.ru/code/menu.js"></script>
+                </ul>
 				</div>
                 </header><!-- .header-->
             
