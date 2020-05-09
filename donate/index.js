@@ -1,4 +1,4 @@
-content = `<br><p class="header_marupik">Marupik</p><br><br><p>Marupik это ванильный, бесплатный сервер с элементами RolePlay(РП) на последних версиях.<br> Когда вы зайдёте на сервер Вы сможете поселится у кого-то в городе, или создать свой. Столица находится в грибном биоме(4578 -1979)</p>`
+content = `<br><p class="header_marupik">Marupik</p><br><br><p>За любой донат от 20Р можно получить префикс/суфикс и свой цвет в чате. <a href="https://www.donationalerts.com/r/marker2026">(Клик)</a><p>`
 
 document.write(`
 <!DOCTYPE HTML>

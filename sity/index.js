@@ -1,4 +1,13 @@
-content = `<br><p class="header_marupik">Marupik</p><br><br><p>Marupik это ванильный, бесплатный сервер с элементами RolePlay(РП) на последних версиях.<br> Когда вы зайдёте на сервер Вы сможете поселится у кого-то в городе, или создать свой. Столица находится в грибном биоме(4578 -1979)</p>`
+content = `<br><p>Marupik</p><br><br>
+<ul class="city">
+    <li>
+        <div>
+            <img class="sp" src="http://www.marupik.ru/images/marupik1.jpg" height="80" width="80">
+            <a href="marupik.html">Marupik(Столица)</a>
+        </div>
+    </li>
+    <br>
+</ul>`
 
 document.write(`
 <!DOCTYPE HTML>

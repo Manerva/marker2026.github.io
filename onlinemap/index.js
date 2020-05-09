@@ -1,4 +1,7 @@
-content = `<br><p class="header_marupik">Marupik</p><br><br><p>Marupik это ванильный, бесплатный сервер с элементами RolePlay(РП) на последних версиях.<br> Когда вы зайдёте на сервер Вы сможете поселится у кого-то в городе, или создать свой. Столица находится в грибном биоме(4578 -1979)</p>`
+width=document.body.clientWidth;
+height=document.body.clientHeight;
+
+content = `<br><p class="Онлайн карта">Marupik</p><br><br><iframe height="`+(height-324)+`" width="`+(width-249)+`" src="http://map.marupik.ru:2026/index.html"></iframe>`
 
 document.write(`
 <!DOCTYPE HTML>
