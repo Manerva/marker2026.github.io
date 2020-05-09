@@ -8,17 +8,12 @@ document.write(`
 		<meta name="keywords" content="" />
 		<meta name="description" content="" />
     <link href="http://marupik.ru/css/style.css" rel="stylesheet">
-    <link rel="import" href="http://marupik.ru/code/menu.html">
 	</head>
     <body>
 		<div class="wrapper">
 			<header class="header">
                 <div class="m">
-                    <script>
-                        var link = document.querySelector('link[rel=import]');
-                        var content = link.import.querySelector('#intro-dm');
-                        document.body.appendChild(content.cloneNode(true));
-                    </script>
+                    <link rel="import" href="http://marupik.ru/code/menu.html">
 				</div>
                 </header><!-- .header-->
             
